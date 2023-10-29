@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String of Pearls Plant Care</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        .plant-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 0.25rem;
+        }
+        .care-tips {
+            margin-top: 2rem;
+        }
+        /* Custom styles for the divider to ensure it is also responsive */
+        .divider {
+            order: 2; /* On mobile, it will be in between */
+        }
+        @media (min-width: 768px) { /* Adjust this media query based on your breakpoint needs */
+            .divider {
+                order: 1; /* On desktop, the divider will be after plant info */
+            }
+            .social-links {
+                order: 3; /* On desktop, social links will be last */
+            }
+            .plant-info {
+                order: 0; /* Plant info will be first on desktop */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container mt-5">
+        <!-- Social Links Section -->
+        <div class="row social-links order-m-1 order-2">
+            <div class="col-12 text-center">
+                <h3>Hey! I'm Nathan!</h3>
+                <div class="my-4">
+                    <!-- Profile Link -->
+                    <a href="https://ggis.illinois.edu/directory/profile/nj7" target="_blank" class="mx-2" style="color: #000000;">
+                        <i class="fas fa-user-circle fa-2x"></i>
+                    </a>
+                    <!-- Instagram Link -->
+                    <a href="https://www.instagram.com/nathanj_stories/" target="_blank" class="mx-2" style="color: #E4405F;">
+                        <i class="fab fa-instagram fa-2x"></i>
+                    </a>
+                    <!-- LinkedIn Link -->
+                    <a href="https://www.linkedin.com/in/nattaponj/" target="_blank" class="mx-2" style="color: #2867B2;">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Divider -->
+        <div class="row divider">
+            <div class="col-12">
+                <hr class="border-top">
+            </div>
+        </div>
+
+        <!-- Plant Information -->
+        <div class="row plant-info order-m-2 order-1">
+            <div class="col-12">
+                <h1 class="mb-4 text-center">String of Pearls (Senecio rowleyanus)</h1>
+            </div>
+            <div class="col-12 col-md-6">
+                <!-- Image of the plant -->
+                <img src="https://meadowview.com/wp-content/uploads/2022/05/string_of_pearls_plant_1352_detail.jpg" alt="String of Pearls Plant" class="plant-image mb-3">
+            </div>
+            <div class="col-12 col-md-6">
+                <p>
+                    String of Pearls is a unique succulent with trailing stems and spherical, bead-like leaves, ideal for hanging baskets or containers.
+                </p>
+                <!-- Care Instructions -->
+                <div class="care-tips">
+                    <h2>Care Instructions</h2>
+                    <ul>
+                        <li><strong>Light:</strong> Bright, indirect sunlight.</li>
+                        <li><strong>Water:</strong> Water sparingly and allow soil to dry between waterings.</li>
+                        <li><strong>Temperature:</strong> Prefers 70-80°F (21-27°C).</li>
+                        <li><strong>Fertilizer:</strong> Use diluted, balanced liquid fertilizer sparingly during the growing season.</li>
+                        <li><strong>Pruning:</strong> Trim long stems to encourage bushier growth.</li>
+                        <li><strong>Propagation:</strong> Propagate via stem cuttings in a well-draining succulent mix.</li>
+                    </ul>
+                </div>
+                <!-- Additional Tips -->
+                <div>
+                    <h3>Additional Tips</h3>
+                    <ul>
+                        <li>Ensure good air circulation to prevent humidity buildup.</li>
+                        <li>Repot every 2-3 years to facilitate growth.</li>
+                        <li>Toxic if ingested; keep the plant out of reach of children and pets.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Divider -->
+        <div class="row divider">
+            <div class="col-12">
+                <hr class="border-top">
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.9/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

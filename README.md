@@ -54,8 +54,6 @@ Nathan J - Your Email Address Here
 - LinkedIn: [Nathan](https://www.linkedin.com/in/nattaponj/)
 - Academic Profile: [University of Illinois Profile](https://ggis.illinois.edu/directory/profile/nj7)
 
-Project Link: [https://github.com/your-username/string-of-pearls-website](https://github.com/your-username/string-of-pearls-website)
-
 ## Acknowledgements
 
 - [Img Shields](https://shields.io) for the repository badges.
